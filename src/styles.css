@@ -1,0 +1,86 @@
+/* https://www.youtube.com/watch?v=PwWHL3RyQgk */
+
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+body {
+    background-color:#242b38;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #384357;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw 0;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+a {
+    color: #fafafa;
+}
+
+main {
+    padding-top: 20px;
+}
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-flex;
+    margin: 0px 2.3vw 0px 2.3vw;
+    font-size: 2.5vw;
+}
+
+.nav-item a {
+    transition: color 0.3s ease 0s;
+}
+
+.nav-item a:hover {
+    color: #25D09D;
+}
+
+.nav-item a:active {
+    color: #25D09D;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+#colour-vote {
+    color: #fafafa;
+    text-align: center;
+    justify-content: center;
+}
+
+#colour-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#colour-button {
+    margin: 20px 2.5vw;
+    padding: 1.2vw 4.5vw;
+    font-size: 3vw;
+    color: #fafafa;
+    background-color: #384357;
+    border: 1px solid #fafafa;
+}
+
+@media screen and (min-width: 1000px) {
+    .nav-links li {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    h1 {
+        font-size: 35px;
+    }
+}
