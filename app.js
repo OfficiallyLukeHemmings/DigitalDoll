@@ -77,7 +77,7 @@ app.route("/artist")
 
 
 // Express Server Setup
-let server = app.listen(process.env.port || port, () => {
+let server = app.listen(process.env.port || port, "0.0.0.0", () => {
     console.log(`App listening at http://localhost:${port}`);
 });
 
