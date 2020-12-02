@@ -13,19 +13,31 @@ body {
 nav {
     background-color: #384357;
     display: flex;
+    position: sticky;
     justify-content: center;
     align-items: center;
-    padding: 4vw 0;
+    padding: 4vh 0;
     font-size: 0.7em;
     font-weight: bold;
 }
 
 a {
     color: #fafafa;
+    text-decoration: none;
+}
+
+p {
+    color: #fafafa;
+    text-align: justify;
+}
+
+#brief {
+    font-size: 25px;
+    margin: 2% 10%;
 }
 
 main {
-    padding-top: 20px;
+    padding-top: 2%;
 }
 .nav-links {
     list-style: none;
@@ -49,8 +61,25 @@ main {
     color: #25D09D;
 }
 
+#selected-nav a {
+    color: #25D09D;
+}
+
 h1 {
     font-size: 4vw;
+}
+
+#explore-form {
+    text-align: center;
+}
+
+#explore-form input {
+    margin: 20px 2.5vw;
+    padding: 1.2vw 4.5vw;
+    font-size: 3vw;
+    color: #fafafa;
+    background-color: #384357;
+    border: 1px solid #fafafa;
 }
 
 #colour-vote {
@@ -82,5 +111,65 @@ h1 {
 @media screen and (min-width: 850px) {
     h1 {
         font-size: 35px;
+    }
+}
+
+#artist-statement-section {
+    display: table;
+    margin: 2% 10% 2%;
+    color: #fafafa;
+    font-size: 2vh;
+}
+
+#artist-statement {
+    display: table-cell;
+    width: 50%;
+    text-align: justify;
+}
+
+#artist-img {
+    display: flex;
+    margin-left: 2vh;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#artist-img img {
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+    min-height: 50vh;
+    max-height: 50vh;
+    height: 80%;
+    border: solid 2px #384357;
+}
+
+#countdown {
+    position: absolute;
+    padding-top: 10%;
+}
+
+#form-options {
+    
+    padding-top: 30%;
+}
+
+@media screen and (max-width: 1500px) {
+    #artist-statement-section {
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 1.8vh;
+    }
+
+    #artist-img {
+        padding: 0;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-top: 5%;
+        height: 1vh;
+        width: auto;
+        display: block;
     }
 }
