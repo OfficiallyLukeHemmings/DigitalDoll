@@ -39,10 +39,10 @@ let vm = new Vue({
         <h1 id="form-keyword"> {{ formKeyword }} </h1>
         <div id="form-options"> 
             <button v-for="option in formOptions" class="form-option-button" v-on:click="registerVote"> {{ option }} </button>
-        </div>
-        <div id="form-vote-counts">
-            <h3 classs="vote-count" v-for="voteCount in voteCounts" v-if="voteCount != -1"> {{ voteCount }} </h3>    
-        </div>
+        </div><div id="form-vote-counts">
+        <h3 classs="vote-count" v-for="voteCount in voteCounts" v-if="voteCount != -1"> {{ voteCount }} </h3>    
+    </div>
+        
     </div>`,
     methods: {
         registerVote: function(event) {
@@ -78,6 +78,6 @@ socket.on("voteCounts", data => {
 
 // Updating the form Vue attributes (every 0.5s)
 setInterval(() => {
-    vm.keyword = formStructure.keyword;
+    vm.formKeyword = formStructure.keyword;
     vm.formOptions = formStructure.options;
 }, 500);

@@ -4,6 +4,7 @@ const port = 3000;
 const path = require("path");
 const socket = require("socket.io");
 const formStructure = require("./src/form.json")
+let countdown = "";
 
 
 // Voting results setup (results are to be reset per round)
@@ -49,8 +50,16 @@ app.route("/dev")
         res.sendFile("src/html/dev.html", { root: __dirname })
     })
     .post((req, res) => {
-        if (req.body.start) {
+        if (req.body.status == "start") {
             startCountdown();
+        } else if (req.body.status == "reset") {
+            clearInterval(countdown);
+            formPhase = 1;
+            countdownValue = 21;
+            // Reset initialisation
+            for(let i = 0; i < formStructure[formPhase-1].options.length; i++) {
+                voteCounts[i] = 0;
+            }
         }
     })
 
@@ -93,7 +102,7 @@ for(let i = 0; i < formStructure[formPhase-1].options.length; i++) {
 
 // Handling the countdown and formphase increment
 function startCountdown() {
-    let countdown = setInterval(() => {
+    countdown = setInterval(() => {
         countdownValue--;
         console.log(`Countdown: ${countdownValue}, Form Phase: ${formPhase}`);
         // Resets the countdown to 60s and resets the vote counts.

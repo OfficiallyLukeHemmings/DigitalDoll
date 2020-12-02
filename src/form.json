@@ -1,8 +1,48 @@
 [{
-    "keyword": "keyword1",
-    "options": ["option1", "option2", "option3"]
+    "keyword": "Make the background...",
+    "options": ["Red", "Green", "Blue", "Orange"]
 },
 {
-    "keyword": "keyword2",
-    "options": ["option6", "option7", "option8", "option9", "option10"]
+    "keyword": "Be...",
+    "options": ["Left of Frame", "Right of Frame", "Center of Frame"]
+},
+{
+    "keyword": "Face...",
+    "options": ["Left", "Right", "Camera"]
+},
+{
+    "keyword": "Position your left arm...",
+    "options": ["Upright", "Downwards", "Outwards"]
+},
+{
+    "keyword": "Position your right arm...",
+    "options": ["Upright", "Downwards", "Outwards"]
+},
+{
+    "keyword": "Keep your legs...",
+    "options": ["Together", "Apart", "Bent"]
+},
+{
+    "keyword": "Tilt your back...",
+    "options": ["Forwards", "Backwards"]
+},
+{
+    "keyword": "Lean...",
+    "options": ["Forwards", "Backwards", "Left", "Right"]
+},
+{
+    "keyword": "Tilt your head...",
+    "options": ["Forwards", "Backwards", "Left", "Right"]
+},
+{
+    "keyword": "Put this object in frame",
+    "options": ["Watermelon", "Wine Glass", "Mirror", "Tomatoes"]
+},
+{
+    "keyword": "Be dripping with...",
+    "options": ["Water", "Ketchup", "Melted Ice Cream", "Soup"]
+},
+{
+    "keyword": "Should I break the object in frame?",
+    "options": ["Yes", "No"]
 }]
