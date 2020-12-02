@@ -1,7 +1,6 @@
 {
-  "name": "lightscameraaction",
+  "name": "digitaldoll",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,15 @@
     "express": "^4.17.1",
     "socket.io": "^3.0.3",
     "vue": "^2.6.12"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficiallyLukeHemmings/DigitalDoll.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OfficiallyLukeHemmings/DigitalDoll/issues"
+  },
+  "homepage": "https://github.com/OfficiallyLukeHemmings/DigitalDoll#readme",
+  "description": ""
 }
