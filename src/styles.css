@@ -172,14 +172,14 @@ h1 {
     margin: 5% auto auto auto;
     text-align: center;
     color: #fafafa;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 #form-keyword {
     margin: 5% auto 5% auto;
     text-align: center;
     color: #fafafa;
-    font-size: 18px;
+    font-size: 1.8em;
 }
 
 
@@ -188,6 +188,7 @@ h1 {
     text-align: center;
     display: block;
     width: 80%;
+    font-size: 1.3em;
 }
 
 .form-option-button {
@@ -198,7 +199,7 @@ h1 {
      width: 100%;
      padding-top: 10px;
      padding-bottom: 10px;
-     font-size: 12px;
+     font-size: 1.3em;
      color: #fafafa;
      background-color: #384357;
      border: 1px solid #fafafa;
@@ -220,7 +221,7 @@ h1 {
      width: 100%;
      padding-top: 15px;
      padding-bottom: 13px;
-     font-size: 12px;
+     font-size: 1.3em;
      color: #fafafa;
 }
 

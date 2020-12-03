@@ -118,7 +118,7 @@ function startCountdown() {
         // Resets the countdown to 60s and resets the vote counts.
         if (countdownValue <= 0) {
             formPhase++;
-            countdownValue = 61;
+            countdownValue = 41;
             // Resetting vote counts for 'initialisation'
             restartCounts();
             // 'Initialising' the vote counts for tallys where there are assigned buttons
