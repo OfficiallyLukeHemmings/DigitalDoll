@@ -37,10 +37,20 @@ let vm = new Vue({
     `<div id="exhibition-form" v-if="countdownValue<=20">
         <h2 id="countdown"> {{ countdownValue }} </h2>
         <h1 id="form-keyword"> {{ formKeyword }} </h1>
-        <div id="form-options"> 
-            <button v-for="option in formOptions" class="form-option-button" v-on:click="registerVote"> {{ option }} </button>
-        </div><div id="form-vote-counts">
-        <h3 classs="vote-count" v-for="voteCount in voteCounts" v-if="voteCount != -1"> {{ voteCount }} </h3>    
+        <table id="form-table" style="width:100%;"> 
+            <tr>
+            <th colspan="2">
+                <div id="form-options"> 
+                    <button v-for="option in formOptions" class="form-option-button" v-on:click="registerVote"> {{ option }} </button>
+                </div>
+            </th>
+            <th>
+                <div id="form-vote-counts" style="text-align: left;">
+                    <h3 class="vote-count" v-for="voteCount in voteCounts" v-if="voteCount != -1"> {{ voteCount }} </h3>    
+                </div>
+            </th>
+            </tr>
+        </table>
     </div>
         
     </div>`,

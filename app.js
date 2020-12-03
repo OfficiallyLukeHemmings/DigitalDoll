@@ -84,6 +84,16 @@ app.route("/artist")
     res.sendFile("src/html/artiststatement.html", { root: __dirname });
 });
 
+// Projects and Other Works Route
+app.get("/projects", (req, res) => {
+    res.sendFile("src/html/projects.html", { root: __dirname });
+})
+
+// About Route
+app.get("/about", (req, res) => {
+    res.sendFile("src/html/about.html", { root: __dirname });
+})
+
 
 // Express Server Setup
 let server = app.listen(process.env.PORT || port, () => {
