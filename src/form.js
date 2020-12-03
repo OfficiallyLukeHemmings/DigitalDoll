@@ -46,7 +46,7 @@ let vm = new Vue({
             </th>
             <th>
                 <div id="form-vote-counts" style="text-align: left;">
-                    <h3 class="vote-count" v-for="voteCount in voteCounts" v-if="voteCount != -1"> {{ voteCount }} </h3>    
+                    <h3 class="vote-count" v-for="voteCount in voteCounts" v-if="voteCount != -5"> {{ voteCount }} </h3>    
                 </div>
             </th>
             </tr>

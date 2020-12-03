@@ -10,14 +10,14 @@ let countdown = "";
 // Voting results setup (results are to be reset per round)
 // -1 is to be considered undefined, it should be updated to 0 if there is an equivalent button
 let voteCounts = [
-    firstCount = -1,
-    secondCount = -1,
-    thirdCount = -1,
-    fourthCount = -1,
-    fifthCount = -1
+    firstCount = -5,
+    secondCount = -5,
+    thirdCount = -5,
+    fourthCount = -5,
+    fifthCount = -5
 ]
 function restartCounts() {
-    voteCounts = [-1, -1, -1, -1, -1];
+    voteCounts = [-5, -5, -5, -5, -5];
     console.log(`Vote Counts Reset`);
 }
 
