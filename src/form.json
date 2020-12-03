@@ -23,10 +23,6 @@
     "options": ["Together", "Apart", "Bent"]
 },
 {
-    "keyword": "Tilt your back...",
-    "options": ["Forwards", "Backwards"]
-},
-{
     "keyword": "Lean...",
     "options": ["Forwards", "Backwards", "Left", "Right"]
 },
