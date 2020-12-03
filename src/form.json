@@ -15,24 +15,24 @@
     "options": ["Upright", "Downwards", "Outwards"]
 },
 {
-    "keyword": "Position your right arm...",
-    "options": ["Upright", "Downwards", "Outwards"]
-},
-{
-    "keyword": "Keep your legs...",
-    "options": ["Together", "Apart", "Bent"]
-},
-{
     "keyword": "Lean...",
     "options": ["Forwards", "Backwards", "Left", "Right"]
+},
+{
+    "keyword": "Position your right arm...",
+    "options": ["Upright", "Downwards", "Outwards"]
 },
 {
     "keyword": "Tilt your head...",
     "options": ["Forwards", "Backwards", "Left", "Right"]
 },
 {
+    "keyword": "Keep your legs...",
+    "options": ["Together", "Apart", "Bent"]
+},
+{
     "keyword": "Put this object in frame",
-    "options": ["A watermelon", "A wine glass", "A picture frame", "A mirror"]
+    "options": ["A watermelon", "A picture frame", "A mirror"]
 },
 {
     "keyword": "Be dripping with...",
