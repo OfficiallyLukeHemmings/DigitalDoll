@@ -52,7 +52,8 @@ let vm = new Vue({
             </tr>
         </table>
     </div>
-        
+    <div id="exhibition-form-placeholder" v-else>
+        <h2 id="exhibition-form-placeholder-text">Thank you for participating in today's event...</h2>
     </div>`,
     methods: {
         registerVote: function(event) {
