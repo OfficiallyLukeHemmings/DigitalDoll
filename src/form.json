@@ -36,7 +36,7 @@
 },
 {
     "keyword": "Put this object in frame",
-    "options": ["Watermelon", "Wine Glass", "Mirror", "Tomatoes"]
+    "options": ["A watermelon", "A wine glass", "A mirror", "Tomatoes"]
 },
 {
     "keyword": "Be dripping with...",
