@@ -153,9 +153,8 @@ h1 {
 #exhibition-form {
     align-items: center;
     display: inline-block;
-    transition: all 1s ease;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 6vh;
 }
 
 #exhibition-form-placeholder-text {
@@ -173,14 +172,14 @@ h1 {
     margin: 5% auto auto auto;
     text-align: center;
     color: #fafafa;
-    font-size: 2em;
+    font-size: 8vw;
 }
 
 #form-keyword {
     margin: 5% auto 5% auto;
     text-align: center;
     color: #fafafa;
-    font-size: 1.8em;
+    font-size: 5vw;
 }
 
 
@@ -189,7 +188,7 @@ h1 {
     text-align: center;
     display: block;
     width: 80%;
-    font-size: 1.3em;
+    font-size: 4vw;
 }
 
 .form-option-button {
@@ -201,6 +200,7 @@ h1 {
      padding-top: 10px;
      padding-bottom: 10px;
      font-size: 1.3em;
+     font-weight: bold;
      color: #fafafa;
      background-color: #384357;
      border: 1px solid #fafafa;
@@ -220,9 +220,9 @@ h1 {
      margin-left: 50px;
      margin-right: 5px;
      width: 100%;
-     padding-top: 1em;
-     padding-bottom: 1em;
-     font-size: 1.3em;
+     padding-top: 0.66em;
+     padding-bottom: 0.66em;
+     font-size: 4vw;
      color: #fafafa;
 }
 
@@ -264,7 +264,7 @@ h1 {
 
 .project-quotes {
     font-style: italic;
-    font-size: 10px;
+    font-size: 2vw;
 }
 
 #about-brief {
