@@ -4,7 +4,7 @@
 },
 {
     "keyword": "Be...",
-    "options": ["Left of Frame", "Right of Frame", "Center of Frame"]
+    "options": ["Left of Frame", "Right of Frame", "Centre of Frame"]
 },
 {
     "keyword": "Face...",
@@ -32,11 +32,15 @@
 },
 {
     "keyword": "Put this object in frame",
-    "options": ["A watermelon", "A wine glass", "A mirror", "Tomatoes"]
+    "options": ["A watermelon", "A wine glass", "A picture frame", "A mirror"]
 },
 {
     "keyword": "Be dripping with...",
-    "options": ["Water", "Ketchup", "Melted Ice Cream", "Soup"]
+    "options": ["Eggs", "Baked Beans", "Ketchup", "Melted Ice Cream"]
+},
+{
+    "keyword": "Be covered in...",
+    "options": ["Cereal", "Sugar", "Biscuit Crumbs"]
 },
 {
     "keyword": "Should I break the object in frame?",
