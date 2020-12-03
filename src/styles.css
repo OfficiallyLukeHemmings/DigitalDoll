@@ -120,6 +120,7 @@ h1 {
 
 #artist-statement-section {
     margin: auto;
+    margin-top: 10%;
     width: 85%;
     color: #fafafa;
     font-size: 10px;
@@ -141,6 +142,8 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     min-height: 30vh;
     max-height: 40vh;
     border: solid 2px #384357;
