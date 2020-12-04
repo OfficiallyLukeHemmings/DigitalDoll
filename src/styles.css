@@ -120,7 +120,6 @@ h1 {
 
 #artist-statement-section {
     margin: auto;
-    margin-top: 10%;
     width: 85%;
     color: #fafafa;
     font-size: 3.2vw;
@@ -279,6 +278,7 @@ h1 {
 #about-acknowledgements {
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 10%;
     text-align: justify;
     text-align-last: center;
     font-size: 3vw;
