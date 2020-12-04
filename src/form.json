@@ -32,7 +32,7 @@
 },
 {
     "keyword": "Put this object in frame",
-    "options": ["A watermelon", "A picture frame", "A mirror"]
+    "options": ["A watermelon", "A picture frame"]
 },
 {
     "keyword": "Be dripping with...",
